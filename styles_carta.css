@@ -3,8 +3,96 @@ body{
     font-family: Quicksand;
 }
 
-.contenedor_vacio{
+.contenedor_primero{
+    margin-top: -30px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: 20px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 1);   
+}
+
+.contenedor_segundo{
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: 10px;
+    height: 600px;
+    background-color: rgba(255, 255, 255, 1);     
+}
+
+.contenedor_tercero{
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: 10px;
+    height: 700px;
+    background-color: rgba(255, 255, 255, 1)
+}
+
+.contenedor_cuarto{
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: 10px;
+    height: 1400px;
+    background-color: rgba(255, 255, 255, 1)
+}
+
+.contenedor_foto1{
     background: url(1.jpg);
+    background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+    margin-top: -20px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: 10px;
+    height: 500px;
+}
+
+.contenedor_foto2{
+    background: url(4.jpeg);
+    background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+    margin-top: -20px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: 10px;
+    height: 500px;
+}
+
+.contenedor_foto3{
+    background: url(3.jpg);
+    background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+    margin-top: -20px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: 10px;
+    height: 500px;
+}
+
+.contenedor_foto4{
+    background: url(4.jpg);
+    background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+    margin-top: -20px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: 10px;
+    height: 600px;
+}
+
+.barco{
+    background: url(5.jpg);
     background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -16,36 +104,45 @@ body{
     height: 400px;
 }
 
-.contenedor_primero{
-    margin-top: -30px;
-    margin-left: -10px;
-    margin-right: -10px;
-    margin-bottom: 10px;
-    height: 400px;
-    background-color: rgba(198, 198, 198, .5);     
-}
-
 img{
     width:160px;
     height:160px;   
 }
 
-h1{
-    font-size: 40px;
+h1{    
+    font-size: 35px;
 }
 
 p.intro{
-    font-size: 20px;
+    font-size: 25px;
 }
 
+p.carta{
+    margin-top: 10px;
+    font-size: 30px;    
+}
 
-.contenedor_segundo{
-    
+p.final{    
+    font-family: 'GreatVibesRegular';
+    font-size: 55px;
+    color: red;
 }
 
 @media (min-width: 0px) and (max-width: 500px){
     .contenedor_primero{
         height: 500px;
+    }
+    
+    .contenedor_segundo{
+        height: 800px;
+    }
+    
+    .contenedor_tercero{
+    height: 1300px;
+    }
+    
+    .contenedor_cuarto{    
+    height: 2600px;    
     }
     
     img{
