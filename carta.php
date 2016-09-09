@@ -85,7 +85,7 @@
             <img src="manoder.png" id="nieve" class="emojisgrandes">
             <br>
             <p class="carta">
-            Felices 6 meses, gracias por todo lo que me has dado, y aunque todo el mundo lo sepa, lo repita y repita, más que nadie debes saber que eres el amor de mi vida, de mis sueños, simplemente eres mi vida, simplemente...
+            Felices 6 meses, gracias por todo lo que me has dado, y aunque todo el mundo lo sepa, lo repita y repita, más que nadie debes saber que eres el amor de mi vida, de mis sueños, simplemente eres mi vida, la más guapa, mi deina, mi amoooooo, mi flaca preciosa simplemente...
             </p>
         </div>
         <div class="barco">
